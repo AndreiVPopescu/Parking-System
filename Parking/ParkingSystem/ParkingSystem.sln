@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front end", "Front end", "{AA0577F5-ABE6-4CC4-95BE-60F88A4AB32E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back end", "Back end", "{A90BDB5F-422F-48B9-9A32-9DC79B43B6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Parking", "Core.Parking\Core.Parking.csproj", "{72202351-975F-4B3E-9FAB-27D18EADC046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Mail", "Core.Mail\Core.Mail.csproj", "{FF83E4DC-F663-4D98-87F9-FF183CA4CBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Parking", "API.Parking\API.Parking.csproj", "{97599444-29E3-44A1-A7E3-FBEADFB89532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Google", "API.Google\API.Google.csproj", "{8C9376D1-1C15-4EBB-AB8D-DA91D6BA35B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ads.Service", "Ads.Service\Ads.Service.csproj", "{FD1718EE-1A6E-4137-996F-7943453844D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking.Portal", "Paring.Portal\Parking.Portal.csproj", "{26910C67-BE70-47E9-A573-A5FFD137E51F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72202351-975F-4B3E-9FAB-27D18EADC046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72202351-975F-4B3E-9FAB-27D18EADC046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72202351-975F-4B3E-9FAB-27D18EADC046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72202351-975F-4B3E-9FAB-27D18EADC046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF83E4DC-F663-4D98-87F9-FF183CA4CBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF83E4DC-F663-4D98-87F9-FF183CA4CBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF83E4DC-F663-4D98-87F9-FF183CA4CBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF83E4DC-F663-4D98-87F9-FF183CA4CBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97599444-29E3-44A1-A7E3-FBEADFB89532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97599444-29E3-44A1-A7E3-FBEADFB89532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97599444-29E3-44A1-A7E3-FBEADFB89532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97599444-29E3-44A1-A7E3-FBEADFB89532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9376D1-1C15-4EBB-AB8D-DA91D6BA35B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9376D1-1C15-4EBB-AB8D-DA91D6BA35B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9376D1-1C15-4EBB-AB8D-DA91D6BA35B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9376D1-1C15-4EBB-AB8D-DA91D6BA35B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1718EE-1A6E-4137-996F-7943453844D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1718EE-1A6E-4137-996F-7943453844D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1718EE-1A6E-4137-996F-7943453844D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1718EE-1A6E-4137-996F-7943453844D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26910C67-BE70-47E9-A573-A5FFD137E51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26910C67-BE70-47E9-A573-A5FFD137E51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26910C67-BE70-47E9-A573-A5FFD137E51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26910C67-BE70-47E9-A573-A5FFD137E51F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72202351-975F-4B3E-9FAB-27D18EADC046} = {A90BDB5F-422F-48B9-9A32-9DC79B43B6F7}
+		{FF83E4DC-F663-4D98-87F9-FF183CA4CBB7} = {A90BDB5F-422F-48B9-9A32-9DC79B43B6F7}
+		{97599444-29E3-44A1-A7E3-FBEADFB89532} = {A90BDB5F-422F-48B9-9A32-9DC79B43B6F7}
+		{8C9376D1-1C15-4EBB-AB8D-DA91D6BA35B0} = {A90BDB5F-422F-48B9-9A32-9DC79B43B6F7}
+		{FD1718EE-1A6E-4137-996F-7943453844D2} = {A90BDB5F-422F-48B9-9A32-9DC79B43B6F7}
+		{26910C67-BE70-47E9-A573-A5FFD137E51F} = {AA0577F5-ABE6-4CC4-95BE-60F88A4AB32E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://parkingsystemdk.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Ads.Service\\Ads.Service.csproj
+		SccProjectTopLevelParentUniqueName1 = ParkingSystem.sln
+		SccProjectName1 = Ads.Service
+		SccLocalPath1 = Ads.Service
+		SccProjectUniqueName2 = API.Google\\API.Google.csproj
+		SccProjectTopLevelParentUniqueName2 = ParkingSystem.sln
+		SccProjectName2 = API.Google
+		SccLocalPath2 = API.Google
+		SccProjectUniqueName3 = API.Parking\\API.Parking.csproj
+		SccProjectTopLevelParentUniqueName3 = ParkingSystem.sln
+		SccProjectName3 = API.Parking
+		SccLocalPath3 = API.Parking
+		SccProjectUniqueName4 = Core.Mail\\Core.Mail.csproj
+		SccProjectTopLevelParentUniqueName4 = ParkingSystem.sln
+		SccProjectName4 = Core.Mail
+		SccLocalPath4 = Core.Mail
+		SccProjectUniqueName5 = Core.Parking\\Core.Parking.csproj
+		SccProjectTopLevelParentUniqueName5 = ParkingSystem.sln
+		SccProjectName5 = Core.Parking
+		SccLocalPath5 = Core.Parking
+		SccProjectUniqueName6 = Paring.Portal\\Parking.Portal.csproj
+		SccProjectTopLevelParentUniqueName6 = ParkingSystem.sln
+		SccProjectName6 = Paring.Portal
+		SccLocalPath6 = Paring.Portal
+	EndGlobalSection
+EndGlobal
